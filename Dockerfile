@@ -13,5 +13,7 @@ COPY cert.sh /cert.sh
 
 RUN chmod +x /cert.sh
 
+EXPOSE 80
+
 CMD ["/cert.sh"]
 
