@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sleep 5m
+
 while true; do
 
 if [ -f /etc/letsencrypt/live/${DOMAIN}/privkey.pem ]; then
